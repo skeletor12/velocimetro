@@ -6,19 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		EEEAE4D71C30B47900A705B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEAE4D61C30B47900A705B6 /* main.m */; };
-		EEEAE4DA1C30B47900A705B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEAE4D91C30B47900A705B6 /* AppDelegate.m */; };
-		EEEAE4DD1C30B47900A705B6 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEAE4DC1C30B47900A705B6 /* RootViewController.m */; };
-		EEEAE4E01C30B47900A705B6 /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEAE4DF1C30B47900A705B6 /* DataViewController.m */; };
-		EEEAE4E31C30B47900A705B6 /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEAE4E21C30B47900A705B6 /* ModelController.m */; };
-		EEEAE4E61C30B47900A705B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEEAE4E41C30B47900A705B6 /* Main.storyboard */; };
-		EEEAE4E81C30B47900A705B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEEAE4E71C30B47900A705B6 /* Assets.xcassets */; };
-		EEEAE4EB1C30B47900A705B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEEAE4E91C30B47900A705B6 /* LaunchScreen.storyboard */; };
-		EEEAE4F61C30B47900A705B6 /* velocimetroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEAE4F51C30B47900A705B6 /* velocimetroTests.m */; };
-		EEEAE5011C30B47900A705B6 /* velocimetroUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEAE5001C30B47900A705B6 /* velocimetroUITests.m */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		EEEAE4F21C30B47900A705B6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -37,26 +24,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EEEAE4D21C30B47800A705B6 /* velocimetro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = velocimetro.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EEEAE4D61C30B47900A705B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EEEAE4D81C30B47900A705B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		EEEAE4D91C30B47900A705B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EEEAE4DB1C30B47900A705B6 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		EEEAE4DC1C30B47900A705B6 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		EEEAE4DE1C30B47900A705B6 /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
-		EEEAE4DF1C30B47900A705B6 /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
-		EEEAE4E11C30B47900A705B6 /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
-		EEEAE4E21C30B47900A705B6 /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
-		EEEAE4E51C30B47900A705B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EEEAE4E71C30B47900A705B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EEEAE4EA1C30B47900A705B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EEEAE4EC1C30B47900A705B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EEEAE4F11C30B47900A705B6 /* velocimetroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = velocimetroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EEEAE4F51C30B47900A705B6 /* velocimetroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = velocimetroTests.m; sourceTree = "<group>"; };
-		EEEAE4F71C30B47900A705B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EEEAE4FC1C30B47900A705B6 /* velocimetroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = velocimetroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EEEAE5001C30B47900A705B6 /* velocimetroUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = velocimetroUITests.m; sourceTree = "<group>"; };
-		EEEAE5021C30B47900A705B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEEAE4D21C30B47800A705B6 /* velocimetro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = velocimetro.app; path = "/Users/luisrodriguez/Documents/velocimetro/velocimetro/build/Debug-iphoneos/velocimetro.app"; sourceTree = "<absolute>"; };
+		EEEAE4F11C30B47900A705B6 /* velocimetroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = velocimetroTests.xctest; path = "/Users/luisrodriguez/Documents/velocimetro/velocimetro/build/Debug-iphoneos/velocimetroTests.xctest"; sourceTree = "<absolute>"; };
+		EEEAE4FC1C30B47900A705B6 /* velocimetroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = velocimetroUITests.xctest; path = "/Users/luisrodriguez/Documents/velocimetro/velocimetro/build/Debug-iphoneos/velocimetroUITests.xctest"; sourceTree = "<absolute>"; };
+		EEEAE5111C30C49000A705B6 /* velocimetro.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = velocimetro.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,67 +58,8 @@
 		EEEAE4C91C30B47800A705B6 = {
 			isa = PBXGroup;
 			children = (
-				EEEAE4D41C30B47800A705B6 /* velocimetro */,
-				EEEAE4F41C30B47900A705B6 /* velocimetroTests */,
-				EEEAE4FF1C30B47900A705B6 /* velocimetroUITests */,
-				EEEAE4D31C30B47800A705B6 /* Products */,
+				EEEAE5111C30C49000A705B6 /* velocimetro.playground */,
 			);
-			sourceTree = "<group>";
-		};
-		EEEAE4D31C30B47800A705B6 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				EEEAE4D21C30B47800A705B6 /* velocimetro.app */,
-				EEEAE4F11C30B47900A705B6 /* velocimetroTests.xctest */,
-				EEEAE4FC1C30B47900A705B6 /* velocimetroUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		EEEAE4D41C30B47800A705B6 /* velocimetro */ = {
-			isa = PBXGroup;
-			children = (
-				EEEAE4D81C30B47900A705B6 /* AppDelegate.h */,
-				EEEAE4D91C30B47900A705B6 /* AppDelegate.m */,
-				EEEAE4DB1C30B47900A705B6 /* RootViewController.h */,
-				EEEAE4DC1C30B47900A705B6 /* RootViewController.m */,
-				EEEAE4DE1C30B47900A705B6 /* DataViewController.h */,
-				EEEAE4DF1C30B47900A705B6 /* DataViewController.m */,
-				EEEAE4E11C30B47900A705B6 /* ModelController.h */,
-				EEEAE4E21C30B47900A705B6 /* ModelController.m */,
-				EEEAE4E41C30B47900A705B6 /* Main.storyboard */,
-				EEEAE4E71C30B47900A705B6 /* Assets.xcassets */,
-				EEEAE4E91C30B47900A705B6 /* LaunchScreen.storyboard */,
-				EEEAE4EC1C30B47900A705B6 /* Info.plist */,
-				EEEAE4D51C30B47900A705B6 /* Supporting Files */,
-			);
-			path = velocimetro;
-			sourceTree = "<group>";
-		};
-		EEEAE4D51C30B47900A705B6 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				EEEAE4D61C30B47900A705B6 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		EEEAE4F41C30B47900A705B6 /* velocimetroTests */ = {
-			isa = PBXGroup;
-			children = (
-				EEEAE4F51C30B47900A705B6 /* velocimetroTests.m */,
-				EEEAE4F71C30B47900A705B6 /* Info.plist */,
-			);
-			path = velocimetroTests;
-			sourceTree = "<group>";
-		};
-		EEEAE4FF1C30B47900A705B6 /* velocimetroUITests */ = {
-			isa = PBXGroup;
-			children = (
-				EEEAE5001C30B47900A705B6 /* velocimetroUITests.m */,
-				EEEAE5021C30B47900A705B6 /* Info.plist */,
-			);
-			path = velocimetroUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,7 +152,7 @@
 				Base,
 			);
 			mainGroup = EEEAE4C91C30B47800A705B6;
-			productRefGroup = EEEAE4D31C30B47800A705B6 /* Products */;
+			productRefGroup = EEEAE4C91C30B47800A705B6;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -256,9 +168,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEEAE4EB1C30B47900A705B6 /* LaunchScreen.storyboard in Resources */,
-				EEEAE4E81C30B47900A705B6 /* Assets.xcassets in Resources */,
-				EEEAE4E61C30B47900A705B6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,11 +192,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEEAE4E01C30B47900A705B6 /* DataViewController.m in Sources */,
-				EEEAE4DA1C30B47900A705B6 /* AppDelegate.m in Sources */,
-				EEEAE4E31C30B47900A705B6 /* ModelController.m in Sources */,
-				EEEAE4D71C30B47900A705B6 /* main.m in Sources */,
-				EEEAE4DD1C30B47900A705B6 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +199,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEEAE4F61C30B47900A705B6 /* velocimetroTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,7 +206,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEEAE5011C30B47900A705B6 /* velocimetroUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,25 +223,6 @@
 			targetProxy = EEEAE4FD1C30B47900A705B6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		EEEAE4E41C30B47900A705B6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EEEAE4E51C30B47900A705B6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		EEEAE4E91C30B47900A705B6 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EEEAE4EA1C30B47900A705B6 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		EEEAE5031C30B47900A705B6 /* Debug */ = {
@@ -513,6 +396,7 @@
 				EEEAE5071C30B47900A705B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EEEAE5081C30B47900A705B6 /* Build configuration list for PBXNativeTarget "velocimetroTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +405,7 @@
 				EEEAE50A1C30B47900A705B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EEEAE50B1C30B47900A705B6 /* Build configuration list for PBXNativeTarget "velocimetroUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +414,7 @@
 				EEEAE50D1C30B47900A705B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
